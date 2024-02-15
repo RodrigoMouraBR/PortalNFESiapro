@@ -1,0 +1,21 @@
+
+Docker run: 
+ docker run --name postgres-container -e POSTGRES_PASSWORD=portal -e POSTGRES_USER=portal -e POSTGRES_DB=portal -v /path/on/host:/var/lib/postgresql/data -p 5432:5432  -d postgres:latest
+
+=======================================================================================
+
+Set as Startup Project: PortalNFE.Api
+
+=======================================================================================
+
+Default Project: PortalNFE.Register.Companies.Data (Package Manager Console)
+add-migration InitialRegiterCompany -Context PortalNFECompaniesContext
+update-database -Context PortalNFEUserPersonContext
+
+=======================================================================================
+
+Default Project: PortalNFE.Register.Users.Data (Package Manager Console)
+add-migration InitialRegiterUser -Context PortalNFEUserPersonContext
+update-database -Context PortalNFEUserPersonContext
+
+=======================================================================================

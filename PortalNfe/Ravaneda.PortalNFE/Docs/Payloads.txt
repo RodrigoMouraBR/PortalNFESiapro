@@ -1,0 +1,55 @@
+payload:
+
+Cadastro empresa matriz:
+
+{
+  "companyName": "RODRIGO TADEU ALVES DE MOURA",
+  "fantasyName": "RM SOLUTION",
+  "document": "23301110000199",
+  "stateRegistration": "Isento",
+  "phone": "11945470879",
+  "email": "rodrigo.moura@example.com",
+  "companyAddress": {
+    "zipCode": "07072132",
+    "street": "Praça Marisa Marques",
+    "number": "44",
+    "neighborhood": "Vila Rosalia",
+    "city": "Guarulhos",
+    "state": "São Paulo",
+    "country": "Brasil",
+    "complement": "apto 23"
+  }
+}
+
+Cadastro empresa filial:
+
+{
+  "companyName": "RODRIGO TADEU ALVES DE MOURA",
+  "fantasyName": "RM SOLUTION",
+  "document": "05.926.744/0001-55",
+  "documentRoot": "23301110000199",
+  "stateRegistration": "Isento",
+  "phone": "11945470879",
+  "email": "rodrigo.moura@example.com",
+  "companyAddress": {
+    "zipCode": "07072132",
+    "street": "Praça Marisa Marques",
+    "number": "44",
+    "neighborhood": "Vila Rosalia",
+    "city": "Guarulhos",
+    "state": "São Paulo",
+    "country": "Brasil",
+    "complement": "apto 23"
+  }
+}
+
+
+Cadastro UserPerson:
+
+{
+  "name": "Rodirgo",
+  "email": "rodrigomoura@gmail.com",
+  "cellPhone": "11945470879",
+  "password": "123@Mudar!",
+  "confirmPassword": "123@Mudar!"
+}
